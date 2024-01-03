@@ -1,5 +1,86 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
 .container{
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
 }
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 100px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.conteudo h1{
+    font-size: 5em;
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 30px;
+}
+.infos{
+    display: flex;
+    max-width: 300px;
+    justify-content: space-between;
+    margin-top: 16px;
+    font-weight: bold;
+}
+
+span {
+    color: white;
+}
+
+.imdb{
+    color: #f0c63e;
+}
+
+button {
+    width: 150px;
+    height: 60px;
+    border: 3px solid #f0c63e;
+    border-radius: 45px;
+    transition: all 0.3s;
+    cursor: pointer;
+    background: white;
+    font-size: 1.2em;
+    font-weight: 550;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  button:hover {
+    background: #f0c63e;
+    color: white;
+    font-size: 1.5em;
+  }
+
+  .buttonplay{
+    text-align: left;
+    max-width: 300px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .add{
+    font-size: 4em;
+    color: white;
+    transition: transform 0.2s ease-in-out;
+    cursor: pointer;
+  }
+
+  .add:hover{
+    transform: scale(1.1) translateX(1px);
+  }
+.listadefilmes h2{
+    color: #fff;
+    font-size: bold;
+    font-size: 2em;
+}
+  .listadefilmes{
+    margin-top: 50px;
+
+  }

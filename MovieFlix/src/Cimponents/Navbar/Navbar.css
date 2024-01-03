@@ -5,13 +5,12 @@ h1{
 }
 nav{
     width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
+    max-width: 900px;
     padding: 30px 0px;
 }
 .navbar{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -25,4 +24,29 @@ nav{
     font-weight: 600;
     display: flex;
     gap: 5px;
+    transition: transform 0.2s ease-in-out;
 }
+
+.navbar li a:hover{
+    color: #f0c63e;
+    transform: scale(1.2) translateX(1px);
+}
+
+.search{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    gap: 15px;
+    color: #f0c63e;
+    font-weight: bolder;
+    font-size: 1.4em;
+    cursor: pointer;
+    max-width: 500px;
+    position: relative;
+    left: 280px;
+}
+.search img{
+    border-radius: 50%;
+    width: 50px;
+}
+

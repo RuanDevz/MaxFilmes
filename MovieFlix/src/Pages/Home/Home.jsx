@@ -6,7 +6,7 @@ import Destaques from '../../Cimponents/Destaques/Destaques'
 
 const Home = () => {
   return (
-    <div className='container'>
+    <div>
       <Navbar />
       <Destaques />
     </div>
