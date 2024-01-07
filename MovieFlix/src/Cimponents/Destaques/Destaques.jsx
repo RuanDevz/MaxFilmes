@@ -2,6 +2,7 @@
 import React from 'react'
 import './Destaques.css'
 import { IoIosAddCircleOutline } from "react-icons/io";
+import Mylist from '../Mylist/Mylist';
 
 
 const Destaques = () => {
@@ -19,6 +20,7 @@ const Destaques = () => {
       </div>
       <div className='listadefilmes'>
         <h2>My List</h2>
+        <Mylist />
       </div>
     </div>
   )
